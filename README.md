@@ -5,7 +5,8 @@
 
 
 
-<img width="1313" height="962" alt="GUI AIMD" src="https://github.com/user-attachments/assets/ec5befe3-f177-4053-b2fe-2c91e962f2cd" />
+<img width="1408" height="768" alt="AIMD LOGO Web" src="https://github.com/user-attachments/assets/17cfb309-deb1-48bf-880b-06c5217b3aba" />
+
 
 
 
@@ -29,6 +30,10 @@ Undo/Redo: Robust state management with up to 50 levels of undo/redo.
 Spectrum Analyzer: LED-style 24-band spectrum visualization with smooth, natural movement.
 Stable and Efficient: Lock-free audio processing callback, optimized vectorized DSP algorithms, and a 2048-sample buffer for smooth playback without lag or freezing.
 19 Expert-Designed Presets: Tailored for AI music services (Suno, Udio, Tunee), genres, and common audio problems.
+
+
+<img width="1313" height="962" alt="GUI AIMD" src="https://github.com/user-attachments/assets/ec5befe3-f177-4053-b2fe-2c91e962f2cd" />
+
 
 **Installation Instructions**
 
