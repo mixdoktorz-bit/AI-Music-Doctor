@@ -1,4 +1,4 @@
-**AI Music Doctor v4.4.0**
+**AI Music Doctor v1.0**
 
 **Overview**
 
