@@ -56,4 +56,4 @@ The app currently requires running via Python. For users unfamiliar with Python,
 If you know how to create a proper standalone .exe installer that bundles Python and all dependencies seamlessly, please share your expertise! This would make the app more accessible to users who are not comfortable with Python environments. Contact me!
 
 2026
-Denoise The Future™
+_Denoise The Future™_
