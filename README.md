@@ -46,21 +46,18 @@ Steps
 
 Download the Project Clone or download the AI Music Doctor project from GitHub.
 Install Dependencies Open a terminal or command prompt in the project directory and run:
-bash
-Copy
+
 pip install -r requirements.txt
 
 This installs all necessary Python packages, including numpy, scipy, sounddevice, PyQt5, and others.
 Run the Application Launch the app by running:
-bash
-Copy
+
 python src/main.py
 
 This opens the GUI where you can load your AI-generated audio files, apply processing, and listen in real-time.
 Build Windows Installer (Optional) To create a standalone Windows executable installer:
 Run the build script:
-bash
-Copy
+
 python installer/build_installer.py
 
 Use Inno Setup (on Windows) to compile the installer script located at:
