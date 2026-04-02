@@ -1,6 +1,17 @@
 **AI Music Doctor v1.0**
 
+
+
+
+
+
 <img width="1313" height="962" alt="GUI AIMD" src="https://github.com/user-attachments/assets/ec5befe3-f177-4053-b2fe-2c91e962f2cd" />
+
+
+
+
+
+
 
 **Overview**
 
