@@ -26,6 +26,12 @@ Examples:
 **Processed**
 [Processed.mp3](https://github.com/user-attachments/files/26454465/Processed.mp3)
 
+
+
+https://github.com/user-attachments/assets/31e15fa4-5aa4-4149-9a10-fe67600684f4
+
+
+
 **Key Features**
 
 Psychoacoustic Denoiser: A one-knob solution with six frequency bands (Boom, Box, Mudd, Honk, Harsh, Sizzle) that dynamically minimizes problematic frequencies with zero latency.
