@@ -50,7 +50,10 @@ Stable and Efficient: Lock-free audio processing callback, optimized vectorized 
 
 
 
-<img width="1904" height="1304" alt="GUI" src="https://github.com/user-attachments/assets/166d2544-5958-48df-9894-47cf1b96deb1" />
+
+
+<img width="1904" height="1242" alt="GUI" src="https://github.com/user-attachments/assets/039971b0-089a-42da-aec4-41feffe19ebf" />
+
 
 
 
