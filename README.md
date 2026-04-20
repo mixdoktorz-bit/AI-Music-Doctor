@@ -49,7 +49,10 @@ Stable and Efficient: Lock-free audio processing callback, optimized vectorized 
 19 Expert-Designed Presets: Tailored for AI music services (Suno, Udio, Tunee), genres, and common audio problems.
 
 
-<img width="1904" height="1304" alt="GUI" src="https://github.com/user-attachments/assets/2c13797a-8789-4b13-837e-1e2ee7a5cc76" />
+
+<img width="1904" height="1304" alt="GUI" src="https://github.com/user-attachments/assets/166d2544-5958-48df-9894-47cf1b96deb1" />
+
+
 
 
 **Installation Instructions**
