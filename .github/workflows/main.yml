@@ -33,7 +33,7 @@ jobs:
                       --noconfirm \
                       --clean \
                       --onedir \
-                      src/main.py
+                      main.py
 
       - name: Install create-dmg
         run: brew install create-dmg
