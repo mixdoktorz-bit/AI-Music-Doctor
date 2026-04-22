@@ -55,4 +55,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: AI-Music-Doctor-macOS-DMG
-          path: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/installer
+          path: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/release/*.dmg
