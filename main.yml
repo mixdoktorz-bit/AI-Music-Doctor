@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  build-dmg: ls -R
+  build-dmg:
     runs-on: macos-latest
 
     steps:
