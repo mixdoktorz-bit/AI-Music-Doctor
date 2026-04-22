@@ -25,14 +25,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r ai_music_doctor/requirements.txt
           pip install pyinstaller
       
       - name: Make build script executable
         run: chmod +x build_macos_pyinstaller.sh
       
       - name: Run macOS build
-        run: ./build_macos_pyinstaller.sh
+        run: cd AI_MUSIC_DOCTOR && ./build_macos_pyinstaller.sh
       
       - name: Verify build output
         run: |
