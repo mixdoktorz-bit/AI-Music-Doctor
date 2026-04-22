@@ -45,7 +45,7 @@ jobs:
           fi
       
       - name: Upload DMG artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: AI-Music-Doctor-macOS
           path: dist/AI_Music_Doctor.dmg
