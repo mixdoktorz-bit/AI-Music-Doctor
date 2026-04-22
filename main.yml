@@ -25,15 +25,15 @@ jobs:
           pip install -r requirements.txt
           pip install pyinstaller
 
-      - name: Build app with PyInstaller
+      - name: Build app with PyInstaller  
         working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/
-        run: |
-          pyinstaller --name="AI Music Doctor" \
-                      --windowed \
-                      --noconfirm \
-                      --clean \
-                      --onedir \
-                      src/main.py
+        run: |  
+          pyinstaller --name="AI Music Doctor" \  
+                      --windowed \  
+                      --noconfirm \  
+                      --clean \  
+                      --onedir \  
+                      src/main.py 
 
       - name: Install create-dmg
         run: brew install create-dmg
