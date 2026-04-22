@@ -24,3 +24,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pyinstaller
+
+      - name: Build app with PyInstaller
+        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
+        run: |
+          pyinstaller --name="AI Music Doctor" \
+                      --windowed \
+                      --noconfirm \
+                      --clean \
+                      --onedir \
+                      main.py
+      
+      - name: Upload app artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AI-Music-Doctor-macOS
+          path: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/dist/AI Music Doctor.app
