@@ -39,7 +39,7 @@ jobs:
         run: brew install create-dmg
 
       - name: Create DMG
-        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/
+        working-directory: AI_MUSIC_DOCTOR V1.3/
         run: |
           mkdir -p release
           create-dmg \
