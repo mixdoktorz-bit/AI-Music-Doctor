@@ -6,10 +6,10 @@
  6|   pull_request:
  7| 
  8| jobs:
- 9|     build:
-10|     'runs-on': ubuntu-latest
+ 9|     `build`:
+10|     `runs-on`: `macos-latest`
 11| 
-12|     'steps':
+12|     `steps`:
 13|       - name: Checkout code
 14|         uses: actions/checkout@v4
 15| 
