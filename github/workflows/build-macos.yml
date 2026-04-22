@@ -1,26 +1,26 @@
-1| name: Python CI
- 2| 
- 3| on:
- 4|   push:
- 5|     branches: [main]
- 6|   pull_request:
- 7| 
- 8| jobs:
- 9|     `build`:
-10|     `runs-on`: `macos-latest`
-11| 
-12|     `steps`:
-13|       - name: Checkout code
-14|         uses: actions/checkout@v4
-15| 
-16|       - name: Set up Python 3.11
-17|         uses: actions/setup-python@v5
-18|         with:
-19|           python-version: '3.11'
-20| 
-21|       - name: Install pip, requirements, and pyinstaller
-22|         working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
-23|         run: |
-24|           python -m pip install --upgrade pip
-25|           pip install -r requirements.txt
-26|           pip install pyinstaller
+name: Python CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install pip, requirements, and pyinstaller
+        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
