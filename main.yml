@@ -26,7 +26,7 @@ jobs:
           pip install pyinstaller
 
       - name: Build app with PyInstaller
-        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/main.py
+        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/
         run: |
           pyinstaller --name="AI Music Doctor" \
                       --windowed \
